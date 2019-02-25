@@ -8,9 +8,9 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Launch JS program",
-			"program": "${workspaceFolder}/js/index.js",
+      "program": "${workspaceFolder}/index.js",
 			"skipFiles": [
-				"${workspaceFolder}/js/node_modules/**/*.js",
+				"${workspaceFolder}/node_modules/**/*.js",
 				"<node_internals>/**/*.js"
 			]
 		}
